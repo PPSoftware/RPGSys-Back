@@ -1,2 +1,1 @@
 web: java -jar target/java-getting-started-1.0.jar
-release: java -jar target/dependency/liquidbase.jar --changeLogFile=src/main/resources/db/changelog/db.changelog-master.yaml --url=$JDBC_DATABASE_URL --classpath=target/dependency/postgres.jar update
